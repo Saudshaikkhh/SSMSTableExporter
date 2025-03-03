@@ -2,10 +2,10 @@ import pyodbc
 import pandas as pd
 
 # Database connection configuration
-server = '183.83.177.224,53585'
-database = 'hpscb_bancscan'
-username = 'sa'
-password = 'ntplupl@123'
+server = 'your-servername'
+database = 'your-databasename'
+username = 'your-username'
+password = 'your-password'
 driver = '{ODBC Driver 17 for SQL Server}'  # Update the driver if necessary
 
 # Output files
